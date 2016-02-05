@@ -2,5 +2,11 @@
   <component name="CodeInsightSettings">
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="autovalue.shaded" />
+    <EXCLUDED_PACKAGE NAME="jersey.repackaged" />
+    <EXCLUDED_PACKAGE NAME="org.inferred.freebuilder.shaded" />
+  </component>
+  <component name="JavaCodeFoldingSettings">
+    <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
   </component>
 </application>
