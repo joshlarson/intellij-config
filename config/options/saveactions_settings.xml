@@ -1,5 +1,11 @@
 <application>
   <component name="SaveActionSettings">
-    <option name="changedCode" value="false" />
+    <option name="actions">
+      <set>
+        <option value="activate" />
+        <option value="organizeImports" />
+        <option value="reformat" />
+      </set>
+    </option>
   </component>
 </application>
