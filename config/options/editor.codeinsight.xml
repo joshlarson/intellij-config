@@ -5,6 +5,7 @@
     <EXCLUDED_PACKAGE NAME="autovalue.shaded" />
     <EXCLUDED_PACKAGE NAME="com.google.common.base.Optional" />
     <EXCLUDED_PACKAGE NAME="com.google.inject.Inject" />
+    <EXCLUDED_PACKAGE NAME="com.newrelic.agent.deps" />
     <EXCLUDED_PACKAGE NAME="jersey.repackaged" />
     <EXCLUDED_PACKAGE NAME="junit.framework" />
     <EXCLUDED_PACKAGE NAME="org.inferred.freebuilder.shaded" />
