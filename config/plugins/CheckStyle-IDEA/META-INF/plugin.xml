@@ -6,17 +6,23 @@
         
 &lt;p&gt;
     This plugin provides both real-time and on-demand scanning
-    of Java files with CheckStyle 6.15 from within IDEA.
+    of Java files with CheckStyle 6.17 from within IDEA.
 &lt;/p&gt;
         
     </description>
-  <version>4.25.2</version>
+  <version>4.27.4</version>
   <idea-version since-build="141.178"/>
   <vendor url="https://infernus.org/" email="james@infernus.org">James Shiell</vendor>
   <depends>com.intellij.modules.java</depends>
   <change-notes>
         
 &lt;ul&gt;
+    &lt;li&gt;4.27.4: Fixed: errors are now correctly detected when the Checker property 'basedir' is defined (#183).&lt;/li&gt;
+    &lt;li&gt;4.27.3: New: the remaining blacklist time is now displayed in the result message.&lt;/li&gt;
+    &lt;li&gt;4.27.2: Fixed: the *reload rules files* button now correctly clears the blacklist (#224).&lt;/li&gt;
+    &lt;li&gt;4.27.1: Fixed: **basedir** now maps to the directory of the current module file, when available (#223).&lt;/li&gt;
+    &lt;li&gt;4.27.0: New: Updated to CheckStyle 6.17.&lt;/li&gt;
+    &lt;li&gt;4.26.0: New: Added support for Eclipse-CS predefined variables (#217).&lt;/li&gt;
     &lt;li&gt;4.25.2: Fixed: Rule files should no longer be read every time the active configuration is queried (#212).&lt;/li&gt;
     &lt;li&gt;4.25.2: Fixed: Scan before checkin is now persisted across IDEA restarts (#216).&lt;/li&gt;
     &lt;li&gt;4.25.1: Fixed: Minimum supported build is now IDEA 14 once again.&lt;/li&gt;
@@ -172,7 +178,7 @@
       <action id="CheckStyleModifiedFilesAction" class="org.infernus.idea.checkstyle.actions.ScanModifiedFiles" text="Check All Modified Files" description="Run Checkstyle on all modified files" icon="/general/toolWindowChanges.png"/>
       <action id="CheckStyleDefaultChangeListAction" class="org.infernus.idea.checkstyle.actions.ScanCurrentChangeList" text="Check Files in the Current Change List" description="Run Checkstyle on the current change list" icon="/general/smallConfigurableVcs.png"/>
       <separator/>
-      <action id="CheckStyleClearCheckCacheAction" class="org.infernus.idea.checkstyle.actions.ClearCheckerCache" text="Reload Rules files" description="Clear the rules file cache, forcing a reload of changed rules" icon="/actions/sync.png"/>
+      <action id="CheckStyleClearCheckCacheAction" class="org.infernus.idea.checkstyle.actions.ResetLoadedRulesFiles" text="Reload Rules files" description="Clear the rules file cache and the blacklist, forcing a reload of changed rules" icon="/actions/sync.png"/>
     </group>
   </actions>
 </idea-plugin>
