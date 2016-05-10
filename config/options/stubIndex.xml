@@ -2,7 +2,6 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
-        <option value="java.unit.tree" />
         <option value="sc.implicit.function.name" />
         <option value="sc.self.type.class.name.key" />
         <option value="sc.super.class.name" />
@@ -23,6 +22,7 @@
         <option value="sc.not.visible.in.java.class.shortName" />
         <option value="sc.class.shortName" />
         <option value="sc.all.class.names" />
+        <option value="java.unit.tree" />
         <option value="java.class.fqn" />
         <option value="java.class.shortname" />
         <option value="java.method.parameter.types" />
