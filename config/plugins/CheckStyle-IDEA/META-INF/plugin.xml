@@ -6,17 +6,25 @@
         
 &lt;p&gt;
     This plugin provides both real-time and on-demand scanning
-    of Java files with CheckStyle 7.0 from within IDEA.
+    of Java files with CheckStyle 7.1.1 from within IDEA.
 &lt;/p&gt;
         
     </description>
-  <version>4.30.1</version>
-  <idea-version since-build="141.178"/>
+  <version>4.32.2</version>
+  <idea-version since-build="143.2370.31"/>
   <vendor url="https://infernus.org/" email="james@infernus.org">James Shiell</vendor>
   <depends>com.intellij.modules.java</depends>
   <change-notes>
         
 &lt;ul&gt;
+    &lt;li&gt;4.32.2: Fixed: Victim location errors are now at debug level.&lt;/li&gt;
+    &lt;li&gt;4.32.2: Fixed: The default tab width is now set from the IDEA Java Code Style, rather than defaulting to the Checkstyle default.&lt;/li&gt;
+    &lt;li&gt;4.32.1: Fixed: `tabWidth` is now read properly, improving element matching for errors (#259, #265). Thanks to Klaus Tannenberg (@KTannenberg).&lt;/li&gt;
+    &lt;li&gt;4.32.0: New: Errors for which we cannot find a matching element are now displayed at the top of the file (#265).&lt;/li&gt;
+    &lt;li&gt;4.32.0: New: Updated to CheckStyle 7.1.1.&lt;/li&gt;
+    &lt;li&gt;4.32.0: New: Scan scopes expanded and improved (#268). Thanks to Thomas Jensen.&lt;/li&gt;
+    &lt;li&gt;4.31.1: New: Updated IDEA SDK to 15.0.6 (143.2370.31), which means no more IDEA 14 support.&lt;/li&gt;
+    &lt;li&gt;4.31.0: New: Updated to CheckStyle 7.1 (#264).&lt;/li&gt;
     &lt;li&gt;4.30.1: Fixed: StringIndexOutOfBoundsExceptions are now treated as parse errors (#258).&lt;/li&gt;
     &lt;li&gt;4.30.1: Fixed: Style importer no longer errors on missing properties (#256).&lt;/li&gt;
     &lt;li&gt;4.30.0: New: Updated to CheckStyle 7.0.&lt;/li&gt;
@@ -28,7 +36,7 @@
     &lt;li&gt;4.28.1: Fixed: IllegalStateExceptions from Checkstyle are now treated as parse exceptions (#228).&lt;/li&gt;
     &lt;li&gt;4.28.0: New: Updated to CheckStyle 6.18.&lt;/li&gt;
     &lt;li&gt;4.28.0: Fixed: Relative Header check filenames are now resolved relative to the project file (#227).&lt;/li&gt;
-    &lt;li&gt;4.28.0: New: Allow error selection by pressing Enter key (#226). Thanks to František Hartman.&lt;/li&gt;
+    &lt;li&gt;4.28.0: New: Allow error selection by pressing Enter key (#226). Thanks to Franti&amp;scaron;ek Hartman.&lt;/li&gt;
     &lt;li&gt;4.27.4: Fixed: errors are now correctly detected when the Checker property 'basedir' is defined (#183).&lt;/li&gt;
     &lt;li&gt;4.27.3: New: the remaining blacklist time is now displayed in the result message.&lt;/li&gt;
     &lt;li&gt;4.27.2: Fixed: the *reload rules files* button now correctly clears the blacklist (#224).&lt;/li&gt;
