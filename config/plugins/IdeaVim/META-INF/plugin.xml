@@ -2,6 +2,10 @@
   <name>IdeaVim</name>
   <id>IdeaVIM</id>
   <change-notes>
+      &lt;p&gt;0.47:&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Various bug fixes&lt;/li&gt;
+      &lt;/ul&gt;
       &lt;p&gt;0.46:&lt;/p&gt;
       &lt;ul&gt;
         &lt;li&gt;Support for &lt;code&gt;incsearch&lt;/code&gt; option for showing search results while typing&lt;/li&gt;
@@ -32,28 +36,6 @@
         &lt;li&gt;Support comments in &lt;code&gt;%&lt;/code&gt; brace matching&lt;/li&gt;
         &lt;li&gt;Various bug fixes&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;p&gt;0.39:&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Various bug fixes&lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;p&gt;0.38:&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Support for &lt;code&gt;:action&lt;/code&gt; and &lt;code&gt;:actionlist&lt;/code&gt; for executing arbitrary IDE actions&lt;/li&gt;
-        &lt;li&gt;Support for &lt;code&gt;number&lt;/code&gt; and &lt;code&gt;relativenumber&lt;/code&gt; options&lt;/li&gt;
-        &lt;li&gt;Support for &lt;code&gt;clipboard=unnamed&lt;/code&gt; option&lt;/li&gt;
-        &lt;li&gt;Various bug fixes&lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;p&gt;0.37:&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Various bug fixes&lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;p&gt;0.36:&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Window commands from the &lt;code&gt;&amp;lt;C-W&amp;gt;&lt;/code&gt; family&lt;/li&gt;
-        &lt;li&gt;Support for &lt;code&gt;:split&lt;/code&gt;/&lt;code&gt;:vsplit&lt;/code&gt; commands&lt;/li&gt;
-        &lt;li&gt;Fixed visual block selection mode&lt;/li&gt;
-        &lt;li&gt;Various bug fixes&lt;/li&gt;
-      &lt;/ul&gt;
       &lt;p&gt;See also the complete &lt;a href="https://github.com/JetBrains/ideavim/blob/master/CHANGES.md"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
     </change-notes>
   <description>
@@ -65,7 +47,7 @@
         &lt;li&gt;&lt;a href="http://youtrack.jetbrains.com/issues/VIM"&gt;Issue tracker&lt;/a&gt;: feature requests and bug reports&lt;/li&gt;
       &lt;/ul&gt;
     </description>
-  <version>0.46</version>
+  <version>0.47</version>
   <vendor>JetBrains</vendor>
   <idea-version since-build="143.0"/>
   <depends>com.intellij.modules.lang</depends>
