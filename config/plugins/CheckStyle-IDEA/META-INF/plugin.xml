@@ -6,17 +6,20 @@
         
 &lt;p&gt;
     This plugin provides both real-time and on-demand scanning
-    of Java files with CheckStyle 7.1.1 from within IDEA.
+    of Java files with CheckStyle 7.3 from within IDEA.
 &lt;/p&gt;
         
     </description>
-  <version>4.32.2</version>
+  <version>4.34.0</version>
   <idea-version since-build="143.2370.31"/>
   <vendor url="https://infernus.org/" email="james@infernus.org">James Shiell</vendor>
   <depends>com.intellij.modules.java</depends>
   <change-notes>
         
 &lt;ul&gt;
+    &lt;li&gt;4.34.0: New: Updated to CheckStyle 7.3.&lt;/li&gt;
+    &lt;li&gt;4.34.0: Fixed: Added (hopefully) a workaround for #278.&lt;/li&gt;
+    &lt;li&gt;4.33.0: New: Updated to CheckStyle 7.2.&lt;/li&gt;
     &lt;li&gt;4.32.2: Fixed: Victim location errors are now at debug level.&lt;/li&gt;
     &lt;li&gt;4.32.2: Fixed: The default tab width is now set from the IDEA Java Code Style, rather than defaulting to the Checkstyle default.&lt;/li&gt;
     &lt;li&gt;4.32.1: Fixed: `tabWidth` is now read properly, improving element matching for errors (#259, #265). Thanks to Klaus Tannenberg (@KTannenberg).&lt;/li&gt;
