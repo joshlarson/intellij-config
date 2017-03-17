@@ -3,6 +3,16 @@
     <option name="registeredIndices">
       <list>
         <option value="java.module.name" />
+        <option value="java.class.fqn" />
+        <option value="java.class.shortname" />
+        <option value="java.method.parameter.types" />
+        <option value="java.anonymous.baseref" />
+        <option value="jvm.static.member.type" />
+        <option value="jvm.static.member.name" />
+        <option value="java.method.name" />
+        <option value="java.field.name" />
+        <option value="java.class.extlist" />
+        <option value="java.annotations" />
         <option value="sc.implicit.function.name" />
         <option value="sc.self.type.class.name.key" />
         <option value="sc.super.class.name" />
@@ -23,16 +33,6 @@
         <option value="sc.not.visible.in.java.class.shortName" />
         <option value="sc.class.shortName" />
         <option value="sc.all.class.names" />
-        <option value="java.class.fqn" />
-        <option value="java.class.shortname" />
-        <option value="java.method.parameter.types" />
-        <option value="java.anonymous.baseref" />
-        <option value="jvm.static.member.type" />
-        <option value="jvm.static.member.name" />
-        <option value="java.method.name" />
-        <option value="java.field.name" />
-        <option value="java.class.extlist" />
-        <option value="java.annotations" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex" />
         <option value="org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex" />
