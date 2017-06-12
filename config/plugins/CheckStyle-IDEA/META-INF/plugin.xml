@@ -10,13 +10,18 @@
 &lt;/p&gt;
         
     </description>
-  <version>5.5.1</version>
+  <version>5.6.1</version>
   <idea-version since-build="143.2370.31"/>
   <vendor url="https://infernus.org/" email="james@infernus.org">James Shiell</vendor>
   <depends>com.intellij.modules.java</depends>
   <change-notes>
         
 &lt;ul&gt;
+    &lt;li&gt;5.6.1: New: code style importer now supports import order - thanks to @zentol (#314).&lt;/li&gt;
+    &lt;li&gt;5.6.1: Fixed: code style importer now adds an extra line between leading content and the package declaration (#315).&lt;/li&gt;
+    &lt;li&gt;5.6.1: Fixed: improved housekeeping when Windows projects are not on the system drive (#313).&lt;/li&gt;
+    &lt;li&gt;5.6.0: New: Added CheckStyle 7.8.1.&lt;/li&gt;
+    &lt;li&gt;5.6.0: Fixed: we now try to use a temporary dir in the project folder when the projects is not on the system drive (#302).&lt;/li&gt;
     &lt;li&gt;5.5.1: New: File paths are now trimmed (#308).&lt;/li&gt;
     &lt;li&gt;5.5.0: New: Added CheckStyle 7.7 (#305).&lt;/li&gt;
     &lt;li&gt;5.4.0: New: Added CheckStyle 7.6.1 (#303).&lt;/li&gt;
