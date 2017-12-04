@@ -2,6 +2,7 @@
   <component name="ActionsCollector">
     <counts>
       <entry action="EditorCopy" count="1" />
+      <entry action="Exit" count="1" />
     </counts>
   </component>
 </application>
