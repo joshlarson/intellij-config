@@ -11,6 +11,6 @@
     <EXCLUDED_PACKAGE NAME="org.inferred.freebuilder.shaded" />
   </component>
   <component name="JavaCodeFoldingSettings">
-    <option name="COLLAPSE_ONE_LINE_METHODS" value="false" />
+    <option name="collapseOneLineMethods" value="false" />
   </component>
 </application>
