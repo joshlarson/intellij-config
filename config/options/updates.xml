@@ -3,15 +3,15 @@
     <enabledExternalComponentSources>
       <item value="Android SDK" />
     </enabledExternalComponentSources>
-    <knownExternalComponentSources>
-      <item value="Android SDK" />
-    </knownExternalComponentSources>
     <option name="externalUpdateChannels">
       <map>
         <entry key="Android SDK" value="Stable Channel" />
       </map>
     </option>
-    <option name="LAST_TIME_CHECKED" value="1522692491150" />
-    <option name="LAST_BUILD_CHECKED" value="IC-173.3727.127" />
+    <knownExternalComponentSources>
+      <item value="Android SDK" />
+    </knownExternalComponentSources>
+    <option name="LAST_BUILD_CHECKED" value="IC-181.4203.550" />
+    <option name="LAST_TIME_CHECKED" value="1522859768892" />
   </component>
 </application>
