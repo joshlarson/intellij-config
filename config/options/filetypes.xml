@@ -7,6 +7,6 @@
     </extensionMap>
   </component>
   <component name="FileTypeManager" version="16">
-    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;bazel-apps;bazel-bin;bazel-out;bazel-testlogs;rcs;vssver.scc;vssver2.scc;" />
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;bazel-*;rcs;vssver.scc;vssver2.scc;" />
   </component>
 </application>
